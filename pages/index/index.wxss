@@ -1,0 +1,91 @@
+.container {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+/* user avater  */
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #3197ed;
+  transition: all 0.5s;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+/* Epoch picker  */
+
+.main-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  padding-top: 40px;
+  transition: all 0.3s;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}
+
+.picker {
+  padding: 26rpx;
+  background-color: #fff;
+}
+
+/* Days Circle  */
+
+.main {
+  position: relative;
+  display: flex;
+  flex: 2;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #3197ed;
+  transition: all 0.5s;
+  z-index: 1;
+}
+
+.main-wrap {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  transition: all 0.3s;
+  margin: 20px;
+}
+
+.main-circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border: 3px solid #fff;
+  border-radius: 50%;
+}
+
+.main-content {
+  font-size: 40px;
+  color: #fff;
+  font-weight: lighter;
+  transition: font-size 0.3s;
+}

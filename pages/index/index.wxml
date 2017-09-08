@@ -1,0 +1,26 @@
+<view class="container timer">
+
+  <view class="userinfo">
+    <block>
+      <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    </block>
+  </view>
+
+  <view class="main">
+    <view class="main-wrap">
+      <view class="main-circle"></view>
+      <text class="main-content">{{days}}</text>
+    </view>
+  </view>
+
+  <view class="main-footer">
+    <view class="section">
+      <icon type='info' size='20' color='#3197ed'></icon>
+      <picker mode="date" value="{{epoch}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+        <view class="picker">
+          Epoch: {{epoch}}
+        </view>
+      </picker>
+    </view>
+  </view>
+</view>
