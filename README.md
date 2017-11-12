@@ -8,4 +8,4 @@ It's a WeChat Mini Program for lovers like Max and Divine.
 
 # Author
 @Max
-@Devine
+@Divine
